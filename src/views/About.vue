@@ -20,18 +20,10 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "About",
+<script setup>
+import { ref } from "vue";
 
-  data() {
-    return {
-      showModal: false,
-    };
-  },
-
-  methods: {},
-};
+const showModal = ref(false);
 </script>
 
 <style lang="less">
